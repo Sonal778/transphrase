@@ -1,3 +1,4 @@
+
 import ATD
 ATD.setDefaultKey("paraphrase#thisisit")
 errors = ATD.checkDocument("This is are apple")
