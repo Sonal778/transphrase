@@ -11,4 +11,6 @@ WORKDIR ./Server
 
 CMD ["python",  "server.py"]
 
-RUN ./srcipt.sh
+RUN chmod +x script.sh
+COPY ./script.sh /tmp/script.sh
+RUN /tmp/script.sh
