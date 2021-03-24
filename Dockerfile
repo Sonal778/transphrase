@@ -10,3 +10,5 @@ COPY . .
 WORKDIR ./Server
 
 CMD ["python",  "server.py"]
+
+RUN ./srcipt.sh
