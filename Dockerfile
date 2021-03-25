@@ -9,5 +9,9 @@ COPY . .
 
 WORKDIR ./Server
 
+EXPOSE 5000
+
+EXPOSE $PORT
+
 CMD ["python",  "server.py"]
 CMD tail -f /dev/null
