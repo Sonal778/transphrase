@@ -10,3 +10,4 @@ COPY . .
 WORKDIR ./Server
 
 CMD ["python",  "server.py"]
+CMD tail -f /dev/null
