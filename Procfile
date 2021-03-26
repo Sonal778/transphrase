@@ -1,1 +1,1 @@
-web: docker run -p 5000:5000 t5
+web: python server.py
