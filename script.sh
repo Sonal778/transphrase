@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -p 5000:5000 t5
+docker run -p 5000:5000 transphrase
