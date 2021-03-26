@@ -1,0 +1,4 @@
+[packages]
+gunicorn = "*"
+flask = "*"
+requests = "*"
